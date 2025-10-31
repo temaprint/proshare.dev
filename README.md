@@ -1,5 +1,6 @@
 # ProShare - Find Your Next Co-founder
 
+![](/public/ProShare.png)
 
 A platform connecting indie founders and developers through project sharing and profit-sharing arrangements.
 
