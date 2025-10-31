@@ -114,7 +114,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 🔗 Links
 
 - **Website**: [proshare.dev](https://proshare.dev)
-- **GitHub**: [github.com/proshare/website](https://github.com/temaprint/proshare.dev)
+- **GitHub**: [github.com/temaprint/proshare.dev.git](https://github.com/temaprint/proshare.dev)
 
 ## 💬 Contact
 
