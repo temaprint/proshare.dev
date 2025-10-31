@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Home Pages -->
+  <url>
+    <loc>https://proshare.dev/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://proshare.dev/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://proshare.dev/ru/" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://proshare.dev/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://proshare.dev/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://proshare.dev/ru/" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Projects Pages -->
+  <url>
+    <loc>https://proshare.dev/projects</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://proshare.dev/projects" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://proshare.dev/ru/projects" />
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://proshare.dev/ru/projects</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://proshare.dev/projects" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://proshare.dev/ru/projects" />
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- About Pages -->
+  <url>
+    <loc>https://proshare.dev/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://proshare.dev/about" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://proshare.dev/ru/about" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://proshare.dev/ru/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://proshare.dev/about" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://proshare.dev/ru/about" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Submit Pages -->
+  <url>
+    <loc>https://proshare.dev/submit</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://proshare.dev/submit" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://proshare.dev/ru/submit" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://proshare.dev/ru/submit</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://proshare.dev/submit" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://proshare.dev/ru/submit" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Individual Projects -->
+  <url>
+    <loc>https://proshare.dev/projects/1</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://proshare.dev/projects/1" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://proshare.dev/ru/projects/1" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://proshare.dev/ru/projects/1</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://proshare.dev/projects/1" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://proshare.dev/ru/projects/1" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://proshare.dev/projects/2</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://proshare.dev/projects/2" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://proshare.dev/ru/projects/2" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://proshare.dev/ru/projects/2</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://proshare.dev/projects/2" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://proshare.dev/ru/projects/2" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://proshare.dev/projects/3</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://proshare.dev/projects/3" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://proshare.dev/ru/projects/3" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://proshare.dev/ru/projects/3</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://proshare.dev/projects/3" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://proshare.dev/ru/projects/3" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+</urlset>
+

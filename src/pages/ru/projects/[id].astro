@@ -21,6 +21,8 @@ if (!project) {
 <Layout 
   title={project.name.ru}
   description={project.description.ru}
+  image={project.image}
+  type="article"
 >
   <section class="py-12 px-4 sm:px-6 lg:px-8">
     <div class="max-w-4xl mx-auto">
@@ -168,6 +170,27 @@ if (!project) {
       </div>
     </div>
   </section>
+
+  <!-- Structured Data for Project -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "SoftwareSourceCode",
+    "name": project.name.ru,
+    "description": project.description.ru,
+    "image": project.image,
+    "codeRepository": project.github,
+    "programmingLanguage": project.tags,
+    "url": `https://proshare.dev/ru/projects/${project.id}`,
+    "author": {
+      "@type": "Person",
+      "name": project.contact
+    },
+    "offers": {
+      "@type": "Offer",
+      "description": `Доля прибыли: ${project.profitShare}`,
+      "availability": "https://schema.org/InStock"
+    }
+  })} />
 </Layout>
 
 <script>
