@@ -1,0 +1,132 @@
+{
+  "en": {
+    "nav": {
+      "home": "Home",
+      "projects": "Projects",
+      "submit": "Submit Project",
+      "about": "About"
+    },
+    "home": {
+      "title": "Find Your Next Co-founder",
+      "subtitle": "Discover innovative startup ideas and connect with passionate creators looking for collaborators.",
+      "cta": "Explore Projects",
+      "cta2": "Submit Your Project"
+    },
+    "projects": {
+      "title": "Discover Projects",
+      "subtitle": "Browse through innovative startup ideas from creators worldwide",
+      "profitShare": "Profit Share",
+      "contact": "Contact",
+      "viewGithub": "View on GitHub",
+      "noProjects": "No projects available yet."
+    },
+    "submit": {
+      "title": "Submit Your Project",
+      "subtitle": "Share your startup idea with potential co-founders",
+      "form": {
+        "name": "Project Name",
+        "description": "Description",
+        "image": "Image URL",
+        "github": "GitHub URL",
+        "profitShare": "Profit Share",
+        "contact": "Contact Info",
+        "submit": "Submit Project",
+        "namePlaceholder": "Enter your project name",
+        "descriptionPlaceholder": "Describe your project and what you're looking for in a co-founder",
+        "imagePlaceholder": "https://example.com/image.jpg",
+        "githubPlaceholder": "https://github.com/username/project",
+        "profitSharePlaceholder": "50/50, 60/40, etc.",
+        "contactPlaceholder": "Telegram @username, email, Discord, etc."
+      }
+    },
+    "about": {
+      "title": "About ProShare",
+      "subtitle": "Connecting indie founders and developers",
+      "content": "ProShare helps indie founders and developers find each other by sharing project ideas and profit-sharing arrangements. Whether you have a brilliant idea that needs technical expertise or you're a developer looking for your next venture, ProShare connects passionate creators.",
+      "faq": "Frequently Asked Questions",
+      "faqItems": [
+        {
+          "question": "How does profit sharing work?",
+          "answer": "Profit sharing is negotiated between project creators and collaborators. The percentages shown are starting points for discussions."
+        },
+        {
+          "question": "Is ProShare free to use?",
+          "answer": "Yes, ProShare is completely free for both project creators and potential collaborators."
+        },
+        {
+          "question": "How do I contact project creators?",
+          "answer": "Each project listing includes contact information provided by the creator, such as Telegram, Discord, or email."
+        }
+      ]
+    },
+    "footer": {
+      "description": "Connecting indie founders and developers worldwide at proshare.dev",
+      "sourceCode": "Source Code"
+    }
+  },
+  "ru": {
+    "nav": {
+      "home": "Главная",
+      "projects": "Проекты",
+      "submit": "Добавить Проект",
+      "about": "О нас"
+    },
+    "home": {
+      "title": "Найдите Своего Следующего Со-основателя",
+      "subtitle": "Откройте для себя инновационные стартап-идеи и общайтесь со страстными создателями, ищущими соратников.",
+      "cta": "Изучить Проекты",
+      "cta2": "Добавить Ваш Проект"
+    },
+    "projects": {
+      "title": "Откройте Проекты",
+      "subtitle": "Просматривайте инновационные стартап-идеи от создателей по всему миру",
+      "profitShare": "Доля Прибыли",
+      "contact": "Контакт",
+      "viewGithub": "Посмотреть на GitHub",
+      "noProjects": "Проекты пока недоступны."
+    },
+    "submit": {
+      "title": "Добавить Ваш Проект",
+      "subtitle": "Поделитесь своей стартап-идеей с потенциальными со-основателями",
+      "form": {
+        "name": "Название Проекта",
+        "description": "Описание",
+        "image": "URL Изображения",
+        "github": "URL GitHub",
+        "profitShare": "Доля Прибыли",
+        "contact": "Контактная Информация",
+        "submit": "Отправить Проект",
+        "namePlaceholder": "Введите название вашего проекта",
+        "descriptionPlaceholder": "Опишите свой проект и что вы ищете в со-основателе",
+        "imagePlaceholder": "https://example.com/image.jpg",
+        "githubPlaceholder": "https://github.com/username/project",
+        "profitSharePlaceholder": "50/50, 60/40, и т.д.",
+        "contactPlaceholder": "Telegram @username, email, Discord, и т.д."
+      }
+    },
+    "about": {
+      "title": "О ProShare",
+      "subtitle": "Соединяем инди-основателей и разработчиков",
+      "content": "ProShare помогает инди-основателям и разработчикам находить друг друга, делясь проектными идеями и соглашениями о разделе прибыли. Будь у вас гениальная идея, которая нуждается в технической экспертизе, или вы разработчик, ищущий следующее предприятие, ProShare соединяет страстных создателей.",
+      "faq": "Часто Задаваемые Вопросы",
+      "faqItems": [
+        {
+          "question": "Как работает разделение прибыли?",
+          "answer": "Разделение прибыли обсуждается между создателями проектов и соратниками. Показанные проценты являются отправной точкой для обсуждений."
+        },
+        {
+          "question": "Бесплатно ли использование ProShare?",
+          "answer": "Да, ProShare совершенно бесплатен как для создателей проектов, так и для потенциальных соратников."
+        },
+        {
+          "question": "Как связаться с создателями проектов?",
+          "answer": "Каждое описание проекта включает контактную информацию, предоставленную создателем, такую как Telegram, Discord или email."
+        }
+      ]
+    },
+    "footer": {
+      "description": "Соединяем инди-основателей и разработчиков по всему миру на proshare.dev",
+      "sourceCode": "Исходный Код"
+    }
+  }
+}

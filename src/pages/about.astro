@@ -1,0 +1,93 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getTranslations, getCurrentLocale } from '../utils/i18n';
+
+const currentUrl = new URL(Astro.request.url);
+const currentLocale = getCurrentLocale(currentUrl);
+const t = getTranslations(currentLocale);
+---
+
+<Layout 
+  title={t.nav.about}
+  description={t.about.content}
+>
+  <section class="py-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-4xl mx-auto">
+      <!-- Header -->
+      <div class="text-center mb-12">
+        <h1 class="text-4xl font-bold text-gray-900 mb-4">
+          {t.about.title}
+        </h1>
+        <p class="text-xl text-primary-600 font-medium">
+          {t.about.subtitle}
+        </p>
+      </div>
+
+      <!-- Main Content -->
+      <div class="bg-white rounded-xl shadow-lg p-8 mb-12">
+        <p class="text-lg text-gray-700 leading-relaxed">
+          {t.about.content}
+        </p>
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="bg-white rounded-xl shadow-lg p-8">
+        <h2 class="text-2xl font-bold text-gray-900 mb-8">
+          {t.about.faq}
+        </h2>
+        
+        <div class="space-y-6">
+          {t.about.faqItems.map((item, index) => (
+            <div class="border-b border-gray-200 pb-6 last:border-b-0 last:pb-0">
+              <button 
+                class="flex justify-between items-start w-full text-left focus:outline-none group"
+                onclick={`toggleFaq(${index})`}
+              >
+                <h3 class="text-lg font-semibold text-gray-900 pr-4 group-hover:text-primary-600 transition-colors">
+                  {item.question}
+                </h3>
+                <svg 
+                  class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 mt-1 group-hover:text-primary-600" 
+                  id={`icon-${index}`}
+                  fill="none" 
+                  stroke="currentColor" 
+                  viewBox="0 0 24 24"
+                >
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+              </button>
+              <div 
+                class="mt-4 hidden"
+                id={`answer-${index}`}
+              >
+                <p class="text-gray-600 leading-relaxed">
+                  {item.answer}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<script>
+  function toggleFaq(index) {
+    const answer = document.getElementById(`answer-${index}`);
+    const icon = document.getElementById(`icon-${index}`);
+    
+    if (answer && icon) {
+      if (answer.classList.contains('hidden')) {
+        answer.classList.remove('hidden');
+        icon.classList.add('rotate-180');
+      } else {
+        answer.classList.add('hidden');
+        icon.classList.remove('rotate-180');
+      }
+    }
+  }
+
+  // Make function globally available
+  window.toggleFaq = toggleFaq;
+</script>

@@ -1,0 +1,55 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+import { getTranslations, getCurrentLocale } from '../utils/i18n';
+import projects from '../data/projects.json';
+
+const currentUrl = new URL(Astro.request.url);
+const currentLocale = getCurrentLocale(currentUrl);
+const t = getTranslations(currentLocale);
+---
+
+<Layout 
+  title={t.nav.projects}
+  description={t.projects.subtitle}
+>
+  <section class="py-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+      <!-- Header -->
+      <div class="text-center mb-12">
+        <h1 class="text-4xl font-bold text-gray-900 mb-4">
+          {t.projects.title}
+        </h1>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t.projects.subtitle}
+        </p>
+      </div>
+
+      <!-- Projects Grid -->
+      {projects.length > 0 ? (
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {projects.map((project) => (
+            <ProjectCard project={project} />
+          ))}
+        </div>
+      ) : (
+        <div class="text-center py-16">
+          <div class="w-24 h-24 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
+            <svg class="w-12 h-12 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-medium text-gray-900 mb-2">
+            {t.projects.noProjects}
+          </h3>
+          <p class="text-gray-600 mb-6">
+            {currentLocale === 'en' 
+              ? 'Be the first to share your startup idea!'
+              : 'Будьте первым, кто поделится своей стартап-идеей!'
+            }
+          </p>
+        </div>
+      )}
+    </div>
+  </section>
+</Layout>

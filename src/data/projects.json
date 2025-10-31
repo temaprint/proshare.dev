@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "name": {
+      "en": "AstroJS.dev",
+      "ru": "AstroJS.dev"
+    },
+    "description": {
+      "en": "A comprehensive Astro.js website featuring articles, developer profiles, templates, and multi-language support.",
+      "ru": "Комплексный веб-сайт Astro.js с статьями, профилями разработчиков, шаблонами и поддержкой нескольких языков."
+    },
+    "image": "https://raw.githubusercontent.com/temaprint/AstroJS.dev/main/public/astrojs-00.png",
+    "github": "https://github.com/temaprint/AstroJS.dev",
+    "profitShare": "50/50",
+    "contact": "Telegram @t_3_m_a",
+    "tags": ["Astro.js", "Web Development", "Multi-language", "Templates"]
+  },
+  {
+    "id": "2",
+    "name": {
+      "en": "FormPDF.dev",
+      "ru": "FormPDF.dev"
+    },
+    "description": {
+      "en": "A modern web application for downloading free tax forms and government documents. Built with Astro, this site helps users overcome bureaucracy by providing instant access to essential PDF forms.",
+      "ru": "Современное веб-приложение для скачивания бесплатных налоговых форм и государственных документов. Построенный на Astro, этот сайт помогает пользователям преодолеть бюрократию, предоставляя мгновенный доступ к важным PDF-формам."
+    },
+    "image": "https://raw.githubusercontent.com/temaprint/FormPDF.dev/main/public/FormPDF.png",
+    "github": "https://github.com/temaprint/FormPDF.dev",
+    "profitShare": "50/50",
+    "contact": "Telegram @t_3_m_a",
+    "tags": ["Astro", "PDF", "Government Forms", "Bureaucracy"]
+  },
+  {
+    "id": "3",
+    "name": {
+      "en": "stopspambot.ru",
+      "ru": "stopspambot.ru"
+    },
+    "description": {
+      "en": "Anti-spam bot for Telegram - Smart bot that keeps your chat clean using OpenAI technology.",
+      "ru": "Анти-спам бот для Telegram - Умный бот, который поддерживает ваш чат в чистоте с помощью OpenAI."
+    },
+    "image": "https://raw.githubusercontent.com/temaprint/stopspambot/main/botpic.png",
+    "github": "https://github.com/temaprint/stopspambot",
+    "profitShare": "50/50",
+    "contact": "Telegram @t_3_m_a",
+    "tags": ["Telegram Bot", "Anti-spam", "OpenAI", "Chat Moderation"]
+  }
+]
